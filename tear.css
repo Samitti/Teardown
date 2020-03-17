@@ -103,9 +103,9 @@
 .container2 {
     display:flex;
     flex-wrap:wrap;
-    height:500px;
-    background-color:grey;
-    margin-top:0.4px;
+    height:1300px;
+    background-color:rgb(128, 128, 128);
+    /* margin-top:0.4px; */   
 }
 
 .container2 a{
@@ -113,30 +113,68 @@
     color:white;
 }
 
-#div1{
-    margin-top: 20px;
+.sub-model{
     width:70%;
     height:100%;
-    padding:30px;
+    margin-left: 40px;
     display:flex;
-    margin-top:8em;
+    flex-direction: column;
+    margin-top:12em;
+    /* margin-bottom: 3em; */
+    /* background-color: tomato; */
+}
+
+.sub-model #div-one {
+    display: flex;
+    /* background-color: turquoise; */
+    align-items: center;
+    
+}
+
+.sub-model figcaption {
+    margin-left: 30px;
+    
+}
+
+.sub-model #div-two {
+  margin-top: 20px;
+}
+
+.sub-model p {
+  font-size: 15px;
 }
 
 #chidi{
-    width:12%;
-    height:15%;
+  width: 60px;
+  border: 5px solid white;
+  border-radius: 10px;
+  transform: rotateZ(-15deg);  
+}
+
+#chidi:hover {
+    transform: rotateZ(0deg);  
+}
+
+#div-two h2 {
+  font-size: 40px;
+}
+
+#div-two small {
+    font-size: medium;
 }
 
 .model{
     width:50%;
-    height:100%;
+    height:50%;
 }
 
 .model1{
+    /* padding-top: 5em; */
     background-color: lightgray;
 }
 
 .model2{
+    /* padding-top: 5em; */
     background-color:firebrick;
 }
 
@@ -152,9 +190,15 @@
     background-color:white;
     width:30%;
     margin:auto;
-    height:12%;
-    margin-top:-59.5em;
+    height:5%;
+    margin-top:-79em;
     text-align:center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.mini p {
+  font-size: 39px;
 }
 
 .mini1{
@@ -166,7 +210,7 @@
     height:15px;
     padding:10px;
     margin:auto;
-    margin-top:2.5em;
+    margin-top:.8em;
     height:50%;
     text-align:center;
 }

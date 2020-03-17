@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     border: none;
   }  
 
@@ -8,24 +9,59 @@
     flex-wrap:wrap;
     background-color:grey;
     height:140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 20%;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+.container h2 {
+    font-size: 24px;
+}
+
+.box1 img {
+    width: 80%;
+}
+
+.box7 div {
+    display: flex;
+    border: 4px solid white;
+    border-radius: 5px;
+    height: 35%;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+
+.box7 p {
+    font-size: 19px;
 }
 
 .box{
     color:white;
     font-size:20px;
     text-align:center;
-    width:150px;
+    width:170px;
     margin-left:auto;
     margin-right:auto;
     height:120px;
-    padding:10px;
+    padding:10px 0 0 0;
+    line-height: 150%;
 }
 
 .box1{
     background-color:blue;
-    display:flex;
-    flex-direction:column;
-    line-height:25px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
 }
 
 .box2{
@@ -49,7 +85,12 @@
 }
 
 .box7{
+    text-align: center;
     background-color:cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
 }
 
 /* THIS IS FOR THE FIRST HEADER BOXES */

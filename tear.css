@@ -222,22 +222,51 @@
 .container3 {
     display:flex;
     position:relative;
-    top:30.6em;
+    top:0em;
     padding:10px;
-    background-color:lightgray;
+    background-color:whitesmoke;
     height:800px;
 }
 
 
 .min{
-    width:30%;
-    margin:auto;
-    background-color:yellow;
-    height:60%
+    width:33.3333330%;
+    background-color:transparent;
+    height:60%;
+    display:flex;
+    flex-direction:column;
+    line-height:2em;
+    padding:3%;
 }
 
 .min:hover{
     background-color:white;
+}
+
+.min #days{
+    color:grey;
+}
+
+.min #honest{
+    font-size:24px;
+    color:black;
+    font-weight:600;
+}
+
+.min #honest:hover{
+    color:red;
+}
+
+.min #fred{
+    font-size:18px;
+    color:darkolivegreen;
+    font-weight:600;
+}
+
+.min #handbook{
+    color:black;
+    font-size:18px;
+    text-decoration:none;
 }
 
 .container4{
@@ -245,7 +274,7 @@
     background-color:lightgray;
     width:100%;
     position:relative;
-    top:30.5em;
+    top:0em;
     height:700px;
 
 }
@@ -278,7 +307,7 @@ footer {
 .container5 {
     display:flex;
     position:relative;
-    top:30.4em;
+    top:0em;
     height:500px;
     background-color:lightgrey;
 }
@@ -305,7 +334,7 @@ footer {
     height:700px;
     background-color:grey;
     position:relative;
-    top:30.4em;
+    top:0em;
 }
 
 .box-model{

@@ -13,6 +13,11 @@
     margin-bottom: 20px;
 }
 
+.container a{
+    text-decoration:none;
+    color:white;
+}
+
 .container img {
     width: 20%;
 }
@@ -103,6 +108,25 @@
     margin-top:0.4px;
 }
 
+.container2 a{
+    text-decoration:none;
+    color:white;
+}
+
+#div1{
+    margin-top: 20px;
+    width:70%;
+    height:100%;
+    padding:30px;
+    display:flex;
+    margin-top:8em;
+}
+
+#chidi{
+    width:12%;
+    height:15%;
+}
+
 .model{
     width:50%;
     height:100%;
@@ -110,7 +134,6 @@
 
 .model1{
     background-color: lightgray;
-
 }
 
 .model2{
